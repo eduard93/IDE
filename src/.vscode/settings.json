@@ -1,0 +1,18 @@
+{
+    "objectscript.conn": {
+        "active": true,
+        "server": "default~iris",
+        "host": "iris",
+        "ns": "USER",
+        "username": "_SYSTEM",
+        "password": "SYS"
+    },
+    "workbench.startupEditor": "readme",
+    "intersystems.language-server.suggestTheme": false,
+    "objectscript.ignoreInstallLanguageServer": true,
+    "objectscript.ignoreInstallServerManager": true,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "python.showStartPage": false,
+    "python.linting.enabled": false,
+    "extensions.autoUpdate": false
+}
