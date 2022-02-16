@@ -3,20 +3,16 @@ IRIS bundled with a web IDE. Very WIP.
 
 Also does not work.
 ```json
-    "sqltools.connections": [
-        {
-            "namespace": "USER",
-            "connectionMethod": "Server and Port",
-            "showSystem": true,
-            "previewLimit": 50,
-            "server": "iris",
-            "port": 52773,
-            "askForPassword": false,
-            "driver": "InterSystems IRIS",
-            "name": "iris",
-            "group": "iris",
-            "username": "_SYSTEM",
-            "password": "SYS"
+    "intersystems.servers": {
+        "local": {
+            "webServer": {
+            "scheme": "http",
+            "host": "iris,
+            "port": 52773
+        },
+        "description": "IRIS instance",
+        "username": "_SYSTEM",
+        "password": "SYS"
         }
-    ]
+    }
 ```
