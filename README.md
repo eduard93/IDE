@@ -1,5 +1,5 @@
 # IDE
-IIRS bundled with a web IDE
+IRIS bundled with a web IDE. Very WIP.
 
 Also does not work.
 ```json
