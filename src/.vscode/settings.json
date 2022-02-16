@@ -1,8 +1,8 @@
 {
     "objectscript.conn": {
         "active": true,
-        "server": "default~iris",
         "host": "iris",
+        "port": 52773,
         "ns": "USER",
         "username": "_SYSTEM",
         "password": "SYS"
